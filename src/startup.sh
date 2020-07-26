@@ -1,6 +1,6 @@
 #/bin/sh
 
-appPath="/app/telegram-sonarr-bot-master"
+appPath="/app/telegram-radarr-bot-master"
 ln -s /config/config.json "$appPath"/config.json
 if [ -f /config/acl.json ]; then
 	echo "File exists..."
