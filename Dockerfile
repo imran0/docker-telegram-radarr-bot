@@ -11,7 +11,7 @@ RUN mv /root/supervisord.conf /etc/supervisord.conf && \
 	unzip /app/master.zip -d /app && \
 	rm /app/master.zip
 
-RUN cd /app/telegram-radarr-bot-master && npm install
+RUN cd /app/docker-telegram-radarr-bot-master && npm install
 
 RUN apk del unzip wget
 
